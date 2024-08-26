@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+*{
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+}
+
+.sub{
+    display: none;
+}
+
+.hero-section{
+    height: 100vh;
+}
+
+.heading-1{
+    font-size: 20px;
+    font-family:monospace;
+}
+
+.heading-2{
+    font-family:sans-serif;
+}
+
+.intro-text{
+    font-size: 120px;
+    font-family: "Quicksand", sans-serif;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 25%;
+}
+
+.arrow-top{
+    position: absolute;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+
+.arrow-down {
+    position: absolute;
+    display: inline-block;
+    margin-top: 23px;
+}
+.prompt-text{
+    margin-top: 40px;
+}
+
+.prompt-text > span{
+    background-color: wheat;
+    color: #000;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links{
+    font-family: "Quicksand", sans-serif;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    border-bottom: 1px solid #fff;
+    font-size: 20px;
+}
+
+#photo-section  {
+    height: 100vh;
+}
+
+#video-section{
+    height: 100vh;
+}
+
+#photo-section > img{
+    margin-right: 30px;
+}
+
+.video-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.title{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.link-2{
+    position: relative;
+}
+
+
+.audio-text{
+    font-family: "Quicksand", sans-serif;
+    font-size:40px
+}
+
+
+footer{
+    font-family: monoton;
+    margin-top: 250px
+}
+
+/* Media Queries */
+@media screen and (max-width: 1208px) {
+    #photo-section{
+        margin-top: 120px;
+ }
+}
+
+@media screen and (max-width: 480px) {
+    .main{
+        display: none;
+    }
+   
+    .sub{
+        display: block;
+        font-family: monospace;
+        background-color: #000;
+        columns: #fff;
+        font-size: 21px;
+        margin-top: 50vh;
+    }
+}
